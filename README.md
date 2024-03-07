@@ -6,16 +6,16 @@
 * Streamlit: It is a serverless application framework that provides a set of tools and best practices for building serverless applications. It is built on top of the AWS Cloud Development Kit (CDK) and AWS Serverless Application Model (SAM).
 
 # Pre-requisites
-* AWS Account
-* AWS CLI installed and configured
-* Python 3.6 or later
-* Docker
+* AWS Account (https://aws.amazon.com/)
+* AWS CLI installed and configured (https://docs.aws.amazon.com/cli/latest/userguide/install-cliv2.html)
+* Python 3.6 or later (https://www.python.org/downloads/)
+* Docker (https://www.docker.com/products/docker-desktop)
 
 # Installation
 * Clone the repository
 * Install the required packages using the following command
 ```bash
-    git clone https://github.com/Amul-Thantharate/Serverless-Chat-Application.git
+    git clone https://github.com/Amul-Thantharate/Bedrock-Serverless-App.git
 ```
 * Install the required packages using the following command
 ```bash
@@ -37,10 +37,5 @@
 ```bash
     docker run -p 8501:8501 chat-app
 ```
-
-# Acknowledgements
-* AWS Bedrock (https://aws.amazon.com/bedrock/)
-* Langchain (https://langchain.io/)
-* Streamlit (https://streamlit.io/)
 
 ## Happy Coding! :smile: :+1:

@@ -5,6 +5,9 @@
 * Langchain: It is a serverless application framework that provides a set of tools and best practices for building serverless applications. It is built on top of the AWS Cloud Development Kit (CDK) and AWS Serverless Application Model (SAM).
 * Streamlit: It is a serverless application framework that provides a set of tools and best practices for building serverless applications. It is built on top of the AWS Cloud Development Kit (CDK) and AWS Serverless Application Model (SAM).
 
+# Screenshots
+![Screenshot](Daigram/Screenshot%202024-03-07%20174605.png)
+
 # Pre-requisites
 * AWS Account (https://aws.amazon.com/)
 * AWS CLI installed and configured (https://docs.aws.amazon.com/cli/latest/userguide/install-cliv2.html)

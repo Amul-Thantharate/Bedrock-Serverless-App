@@ -29,7 +29,7 @@ def bedrock_chain():
 
     # Rest of the code...
 def bedrock_chain():
-    profile = os.environ["AWS_PROFILE"]
+    # profile = os.environ["AWS_PROFILE"]
 
     bedrock_runtime = boto3.client(
         service_name="bedrock-runtime",
@@ -37,7 +37,7 @@ def bedrock_chain():
     )
 
     titan_llm = Bedrock(
-        model_id="amazon.titan-text-express-v1", client=bedrock_runtime, profile=profile
+        model_id="amazon.titan-text-express-v1", client=bedrock_runtime
     )
     titan_llm.model_kwargs = {"temperature": 0.5, "maxTokenCount": 700}
 

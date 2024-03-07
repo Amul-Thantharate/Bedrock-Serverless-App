@@ -1,0 +1,5 @@
+transformers
+langchain
+streamlit
+boto3
+python-dotenv

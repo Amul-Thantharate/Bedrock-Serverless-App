@@ -27,7 +27,7 @@ if "input" not in st.session_state:
 def write_top_bar():
     col1, col2, col3 = st.columns([2, 10, 3])
     with col2:
-        header = "Amazon Bedrock Chatbot"
+        header = "Chat with an AI!"
         st.write(f"<h3 class='main-header'>{header}</h3>", unsafe_allow_html=True)
     with col3:
         clear = st.button("Clear Chat")

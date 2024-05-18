@@ -25,7 +25,8 @@ def bedrock_chain():
         response = conversation.generate_response("Hello")
         print(response)
     """
-    profile = os.environ["AWS_PROFILE"]
+    # profile = os.environ["AWS_PROFILE"]
+
 
     # Rest of the code...
 def bedrock_chain():
@@ -34,6 +35,8 @@ def bedrock_chain():
     bedrock_runtime = boto3.client(
         service_name="bedrock-runtime",
         region_name="us-east-1",
+        aws_access_key_id=os.environ["AWS_ACCESS_KEY_ID"],
+        aws_secret_access_key=os.environ["AWS_SECRET_ACCESS_KEY"],
     )
 
     titan_llm = Bedrock(
